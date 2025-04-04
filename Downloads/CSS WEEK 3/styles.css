@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <!-- Link to External CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header with ID selector -->
+    <header id="header">
+        <h1>Welcome to CSS Styling</h1>
+        <p>Enhance the aesthetics of a webpage using CSS.</p>
+    </header>
+
+    <!-- Content Section with a class selector for styling an image -->
+    <section>
+        <h2>Stylish Image</h2>
+        <img src="https://via.placeholder.com/600x300" alt="A sample image" class="image-style">
+        <p>Here's an example of a beautifully styled image with margins, padding, and borders applied.</p>
+    </section>
+
+    <!-- Paragraph with element selector -->
+    <section>
+        <h2>CSS Styling for Text</h2>
+        <p>This paragraph has been styled using CSS to improve its typography, spacing, and overall readability. The text is
+            easier to read thanks to the font, size, line height, and padding added to it.</p>
+    </section>
+
+</body>
+
+</html>
